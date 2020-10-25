@@ -1,0 +1,51 @@
+.main_right_row{
+    padding: 20px 0;
+}
+
+.main_right_row:not(:last-child){
+    border-bottom: 1px solid gray;
+}
+
+.content{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.content > img{
+    width: 150px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.main_right_row > h4{
+    padding-bottom: 20px;
+}
+
+.page_content > img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.page_content {
+    display: flex;
+    align-items: center;
+}
+.page_content > p{
+    margin-left: 10px;
+}
+
+.anniv_content{
+    display: flex;
+    align-items: center;
+}
+
+.anniv_content > img{
+    width: 40px;
+    vertical-align: middle;
+}
+
+.contact_top{
+    display: flex;
+    justify-content: space-between;
+}

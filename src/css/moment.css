@@ -1,0 +1,79 @@
+.moment{
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.425);
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.moment_top{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.moment_left > img{
+    height: 40px;
+    border-radius: 50%;
+}
+
+.moment_left{
+    display: flex;
+    align-items: center;
+}
+
+.moment_info_user{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px ;
+}
+
+.moment_info_user > p{
+    display: flex;
+    align-items: center;
+    font-size: small;
+}
+
+.moment_info_user > p > span{
+    margin: 0 2px;
+}
+
+.date{
+    color: gray;
+}
+
+.moment_info_user >p >span >i {
+    vertical-align: middle;
+}
+
+.moment_post > hr{
+    border: none;
+    height: 1px;
+    background-color: rgb(219, 219, 219);
+}
+
+.post_text{
+    padding: 15px;
+}
+
+.post_img > img{
+ width: 100%;
+ margin-bottom: 20px;
+}
+
+.moment_right > i{
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.moment_right:hover > i{
+    background-color: rgb(219, 219, 219);
+}
+
+.post_option{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px 0;
+    border-top: 1px solid rgb(219, 219, 219);
+}

@@ -1,0 +1,100 @@
+:root{
+    --background_light: rgb(245, 243, 243);
+
+}
+
+.header{
+    display: flex;
+    position: sticky;
+    z-index: 1000;
+    padding: 0px 15px;
+    font-size: medium;
+    justify-content: space-between;    
+    top: 0;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(65, 64, 64, 0.192);
+}
+
+.header_left > img{
+    height: 40px;
+}
+
+.header_left, .header_center, .header_right, .header_input{
+    display: flex;
+    align-items: center;
+}
+
+.header_input{
+    background-color: var(--background_light);
+    border-radius: 999px;
+    padding: 10px;
+    padding-right: 0px;
+    margin-left: 10px;
+}
+
+.header_input > input{
+    outline: 0;
+    border: none;
+    background: none;
+    flex: 1;
+    width: 100%;
+    font-size: medium;
+    padding: 0 10px;
+}
+
+.header_option > a{
+    display: block;
+    padding: 10px 40px;    
+}
+
+.header_option:hover{
+    background-color: var(--background_light);
+    border-radius: 10px;
+}
+
+.header_option i{
+    font-size: xx-large;
+    color: rgb(163, 162, 162) ;
+}
+
+.header a:focus > i{
+    color: blue;
+    border-bottom: 3px solid blue;
+}
+
+.header_right > i:not(:last-child){
+    margin: 0 0.3vw;
+    font-size: large;
+    background-color: var(--background_light);
+    padding: 10px;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.header_right > i >  img{
+    height: 40px;
+    background: none!important;
+    border-radius: 50%;
+    padding: 10px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.header_right > i:not(:last-child):hover, .header_right > p:hover{
+    background: rgba(201, 201, 201, 0.466);
+}
+
+.header_right p{
+    margin: 0 0.3vw; 
+    border-radius: 999px;
+    background-color: var(--background_light);
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
+
+
